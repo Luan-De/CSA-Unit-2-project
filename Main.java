@@ -20,6 +20,6 @@ public class Main{
 
 
         
-        String SciFiFirstname = firstname.substring(0, 3) + lastName.substring(0, 2).toLowerCase();
+        String SciFiFirstname = firstName.substring(0, 3) + lastName.substring(0, 2).toLowerCase();
     }
 }
