@@ -8,6 +8,6 @@ public class Main{
         String firstName = input.nextLine();
         System.out.println("Enter your last name: ");
         String lastName = input.nextLine();
-        String name = firstname.substring(0, 3) + lastName.substring(0, 2).toLowerCase();
+        String SciFiFirstname = firstname.substring(0, 3) + lastName.substring(0, 2).toLowerCase();
     }
 }
