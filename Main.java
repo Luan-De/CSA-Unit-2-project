@@ -30,7 +30,6 @@ public class Main{
         String placeOfOri = familyRelative1.substring(num) + familyRelative2.substring(num2);
 
         //Welcome message
-        System.out.println("Welcome " + sciFiFirstname + " " + sciFiLastname + " " + placeOfOri + "!");
-        
+        System.out.println("Welcome " + sciFiFirstname + " " + sciFiLastname + "  of " + placeOfOri + "!");
     }
 }
