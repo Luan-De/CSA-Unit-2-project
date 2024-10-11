@@ -28,12 +28,14 @@ public class Main{
         //get the first letter in the string and capitalize it
         String letter = familyRelative1.substring(num);
         String capitalFamilyRelative1 = letter.substring(0,1).toUpperCase();
+        String familyrev = letter.substring(1);
+        String firstNameOfRev = capitalFamilyRelative1 + familyrev;
         
         
         //Sci Fi variables 
         String sciFiFirstname = firstName.substring(0, 3) + lastName.substring(0, 2).toLowerCase();
         String sciFiLastname = city.substring(0, 2) + grammerSchool.substring(grammerSchool.length()-3).toLowerCase();
-        String placeOfOri = capitalFamilyRelative1 + familyRelative2.substring(num2);
+        String placeOfOri = firstNameOfRev + familyRelative2.substring(num2);
 
         //Welcome message
         System.out.println("Welcome " + sciFiFirstname + " " + sciFiLastname + " of " + placeOfOri + "!");
